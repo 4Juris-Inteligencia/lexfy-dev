@@ -1,0 +1,84 @@
+# Ignora bin e obj folders
+bin/
+obj/
+
+# Ignora pacotes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/
+
+# Ignora arquivos de build
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.pdb
+*.mdb
+
+# Ignora configurações do Visual Studio
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+*.csproj.vspscc
+*.csproj.nuget.cache
+
+# Ignora logs e outros arquivos de debug
+*.log
+*.stackdump
+*.pid
+*.logtestresult
+*.coverage
+*.coveragexml
+
+# Ignora arquivos gerados por testes
+TestResults/
+*.trx
+*.coverage
+
+# Ignora caches de pacotes
+packages/
+.project/
+node_modules/
+jspm_packages/
+
+# Ignora arquivos temporários de sistemas Unix/macOS
+*.DS_Store
+._*
+
+# Ignora arquivos de lock
+project.lock.json
+project.fragment.lock.json
+
+# Ignora arquivos gerados pelo sistema
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignora arquivos de backup
+*~
+*.bak
+*.swp
+*.tmp
+*.temp
+*.log
+/FourJuris.Agente.Api/agente_dev.db-wal
+/FourJuris.Autenticacao.Api/authapi_dev.db-wal
+/FourJuris.Agente.Api/agente_dev.db-shm
+/FourJuris.Autenticacao.Api/authapi_dev.db-shm
+/.gitignore
+/.gitignore
+/.gitignore
+
+*.db-wal
+*.db-shm
+/Funil/FourJuris.Funil.Api/funil_dev.db-shm
+/Funil/FourJuris.Funil.Api/funil_dev.db-wal
+/Auth/FourJuris.Autenticacao.Api/authapi_dev.db-shm
+/Auth/FourJuris.Autenticacao.Api/authapi_dev.db-wal

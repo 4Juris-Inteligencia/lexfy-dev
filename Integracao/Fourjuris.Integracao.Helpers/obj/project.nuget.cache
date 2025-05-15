@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qS5NT1Pz9Uo=",
+  "dgSpecHash": "FdMw/tIyNlo=",
   "success": true,
-  "projectFilePath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\Fourjuris.Integracao.Helpers.csproj",
+  "projectFilePath": "C:\\Users\\danie\\Desktop\\integração\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\Fourjuris.Integracao.Helpers.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gisel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\gisel\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
-    "C:\\Users\\gisel\\.nuget\\packages\\stackexchange.redis\\2.8.31\\stackexchange.redis.2.8.31.nupkg.sha512",
-    "C:\\Users\\gisel\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\stackexchange.redis\\2.8.31\\stackexchange.redis.2.8.31.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }
