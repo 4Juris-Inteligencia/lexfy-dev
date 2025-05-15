@@ -1,0 +1,540 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Api\\Fourjuris.Integracao.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Api\\Fourjuris.Integracao.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Api\\Fourjuris.Integracao.Api.csproj",
+        "projectName": "Fourjuris.Integracao.Api",
+        "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Api\\Fourjuris.Integracao.Api.csproj",
+        "packagesPath": "C:\\Users\\gisel\\.nuget\\packages\\",
+        "outputPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gisel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\Fourjuris.Integracao.Configurations.csproj": {
+                "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\Fourjuris.Integracao.Configurations.csproj"
+              },
+              "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\Fourjuris.Integracao.Helpers.csproj": {
+                "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\Fourjuris.Integracao.Helpers.csproj"
+              },
+              "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Evolution.V2\\Fourjuris.Integracao.WhatsApp.Evolution.V2.csproj": {
+                "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Evolution.V2\\Fourjuris.Integracao.WhatsApp.Evolution.V2.csproj"
+              },
+              "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp\\Fourjuris.Integracao.WhatsApp.csproj": {
+                "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp\\Fourjuris.Integracao.WhatsApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.31, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\Fourjuris.Integracao.Configurations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\Fourjuris.Integracao.Configurations.csproj",
+        "projectName": "Fourjuris.Integracao.Configurations",
+        "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\Fourjuris.Integracao.Configurations.csproj",
+        "packagesPath": "C:\\Users\\gisel\\.nuget\\packages\\",
+        "outputPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gisel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\Fourjuris.Integracao.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\Fourjuris.Integracao.Helpers.csproj",
+        "projectName": "Fourjuris.Integracao.Helpers",
+        "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\Fourjuris.Integracao.Helpers.csproj",
+        "packagesPath": "C:\\Users\\gisel\\.nuget\\packages\\",
+        "outputPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gisel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.31, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Abstractions\\Fourjuris.Integracao.WhatsApp.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Abstractions\\Fourjuris.Integracao.WhatsApp.Abstractions.csproj",
+        "projectName": "Fourjuris.Integracao.WhatsApp.Abstractions",
+        "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Abstractions\\Fourjuris.Integracao.WhatsApp.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\gisel\\.nuget\\packages\\",
+        "outputPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gisel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\Fourjuris.Integracao.Configurations.csproj": {
+                "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\Fourjuris.Integracao.Configurations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Evolution.V2\\Fourjuris.Integracao.WhatsApp.Evolution.V2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Evolution.V2\\Fourjuris.Integracao.WhatsApp.Evolution.V2.csproj",
+        "projectName": "Fourjuris.Integracao.WhatsApp.Evolution.V2",
+        "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Evolution.V2\\Fourjuris.Integracao.WhatsApp.Evolution.V2.csproj",
+        "packagesPath": "C:\\Users\\gisel\\.nuget\\packages\\",
+        "outputPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Evolution.V2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gisel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\Fourjuris.Integracao.Configurations.csproj": {
+                "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\Fourjuris.Integracao.Configurations.csproj"
+              },
+              "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\Fourjuris.Integracao.Helpers.csproj": {
+                "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\Fourjuris.Integracao.Helpers.csproj"
+              },
+              "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp\\Fourjuris.Integracao.WhatsApp.csproj": {
+                "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp\\Fourjuris.Integracao.WhatsApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp\\Fourjuris.Integracao.WhatsApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp\\Fourjuris.Integracao.WhatsApp.csproj",
+        "projectName": "Fourjuris.Integracao.WhatsApp",
+        "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp\\Fourjuris.Integracao.WhatsApp.csproj",
+        "packagesPath": "C:\\Users\\gisel\\.nuget\\packages\\",
+        "outputPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gisel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\Fourjuris.Integracao.Configurations.csproj": {
+                "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Configurations\\Fourjuris.Integracao.Configurations.csproj"
+              },
+              "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\Fourjuris.Integracao.Helpers.csproj": {
+                "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.Helpers\\Fourjuris.Integracao.Helpers.csproj"
+              },
+              "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Abstractions\\Fourjuris.Integracao.WhatsApp.Abstractions.csproj": {
+                "projectPath": "C:\\4juris\\Repostiorio temporario\\lexfy-dev\\Integracao\\Fourjuris.Integracao.WhatsApp.Abstractions\\Fourjuris.Integracao.WhatsApp.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

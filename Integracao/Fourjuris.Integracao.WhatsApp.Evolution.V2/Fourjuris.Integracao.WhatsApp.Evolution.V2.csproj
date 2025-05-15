@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Fourjuris.Integracao.Configurations\Fourjuris.Integracao.Configurations.csproj" />
+		<ProjectReference Include="..\Fourjuris.Integracao.Helpers\Fourjuris.Integracao.Helpers.csproj" />
+		<ProjectReference Include="..\Fourjuris.Integracao.WhatsApp\Fourjuris.Integracao.WhatsApp.csproj" />
+	</ItemGroup>
+</Project>

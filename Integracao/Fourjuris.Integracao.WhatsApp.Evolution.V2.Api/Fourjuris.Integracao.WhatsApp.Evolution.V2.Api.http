@@ -1,0 +1,6 @@
+@Fourjuris.Integracao.WhatsApp.Evolution.V2.Api_HostAddress = http://localhost:5228
+
+GET {{Fourjuris.Integracao.WhatsApp.Evolution.V2.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
