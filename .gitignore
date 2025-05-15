@@ -82,3 +82,6 @@ desktop.ini
 /Funil/FourJuris.Funil.Api/funil_dev.db-wal
 /Auth/FourJuris.Autenticacao.Api/authapi_dev.db-shm
 /Auth/FourJuris.Autenticacao.Api/authapi_dev.db-wal
+/Integracao/Fourjuris.Integracao.WhatsApp/obj/Debug/net8.0/Fourjuris.Integracao.WhatsApp.csproj.AssemblyReference.cache
+/Integracao/Fourjuris.Integracao.WhatsApp.Abstractions/obj/Debug/net8.0/Fourjuris.Integracao.WhatsApp.Abstractions.csproj.AssemblyReference.cache
+/Integracao/Fourjuris.Integracao.WhatsApp.Evolution.V2/obj/Debug/net8.0/Fourjuris.Integracao.WhatsApp.Evolution.V2.csproj.AssemblyReference.cache
